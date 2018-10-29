@@ -1,8 +1,6 @@
-$bottegaGreen: #00CB79;
-$clearBlue: #45B0E5;
-$mainGray: #CFCFCF;
-$darkGray: #444444;
-$font-primary: 'Montserrat', sans-serif;
+@import 'variables';
+@import 'header';
+@import 'madlib_form';
 
 // html {
 //     font-size: 62.5%; // 1rem is 10px
@@ -43,19 +41,3 @@ $font-primary: 'Montserrat', sans-serif;
     border-bottom: 1rem solid $bottegaGreen;
 }
 
-.backgroundSkew > * {
-    transform: skewY(10deg);
-}
-
-.madLibHeadings {
-    padding-top: 46px;
-    text-align: center;
-    font-family: $font-primary;
-    color: #fff;
-}
-.madLibMainHeading {
-    font-weight: 700;
-}
-.madLibSubHeading {
-    font-size: 15px;
-}

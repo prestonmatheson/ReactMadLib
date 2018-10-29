@@ -1,0 +1,16 @@
+.backgroundSkew > * {
+    transform: skewY(10deg);
+}
+
+.madLibHeadings {
+    padding-top: 46px;
+    text-align: center;
+    font-family: $font-primary;
+    color: #fff;
+}
+.madLibMainHeading {
+    font-weight: 700;
+}
+.madLibSubHeading {
+    font-size: 15px;
+}
