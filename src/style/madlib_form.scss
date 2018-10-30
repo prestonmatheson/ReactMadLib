@@ -43,17 +43,25 @@ input {
     color: #fff;
 }
 
-.generate-button {
-    height: 50px;
-    width: 300px;
-    border-radius: 4px;
-    background-color: $bottegaGreen;
-    color: #fff;
-    font-size: 1.25rem;
-}
-
 .button-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.generate-button {
+    @include buttonStyles;
+    background-color: $bottegaGreen;
+}
+
+.clear-button {
+    @include buttonStyles;
+    background-color: $clearBlue;
+    padding-top: 9px;
+    text-align: center;
+}
+
+input:focus,
+button:focus {
+    outline: none;
 }
